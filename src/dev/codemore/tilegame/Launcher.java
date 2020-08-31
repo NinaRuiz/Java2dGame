@@ -1,13 +1,11 @@
 package dev.codemore.tilegame;
 
-import dev.codemore.tilegame.display.Display;
-
 public class Launcher {
 
     public static void main(String[] args){
 
-        // Create new Display object
-        new Display("Title", 300, 300);
+        // Create new Game object
+        new Game("Title Game!", 300, 300);
 
 
     }
